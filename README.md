@@ -1,12 +1,12 @@
 # seed
 
-> A Vue.js project
+> A city map with components library by Vue2.0.js
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+npm install tdseed --save
 
 # serve with hot reload at localhost:8080
 npm run dev

@@ -1,10 +1,10 @@
 {
-  "name": "seed",
+  "name": "tdseed",
   "version": "0.1.0",
-  "title": "Seed",
+  "title": "tdseed",
   "description": "A city map with components library by Vue2.0.js",
   "author": "huiyin li <lihuiyin128@163.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -55,6 +55,13 @@
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lhywell/seed"
+  },
+  "bugs": {
+    "url": "https://github.com/lhywell/seed/issues"
   },
   "engines": {
     "node": ">= 6.0.0",

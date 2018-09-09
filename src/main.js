@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import MulChooser from '@/components/mul-chooser'
 
-const seed = {
+const tdseed = {
   MulChooser
 }
 
-Object.keys(seed).forEach(key => {
-  Vue.component(key, seed[key]);
+Object.keys(tdseed).forEach(key => {
+  Vue.component(key, tdseed[key]);
 });
 
-export default seed;
+export default tdseed;

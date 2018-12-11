@@ -32,8 +32,7 @@ export default {
     padding: 10px;
   }
   .components {
-    margin: 0 auto;
-    width: 980px;
+    margin: 88px auto 0;
   }
 }
 

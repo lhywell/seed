@@ -14,7 +14,6 @@ export default {
   created() {
     this.getDistrictPromise()
       .then((res) => {
-        console.log(res)
         this.officeListState = res.data.data;
         this.indexs = [0, 1]
       })
@@ -24,7 +23,8 @@ export default {
       console.log(val);
     },
     getDistrictPromise() {
-      let url = 'http://localhost:8080/static/chooser.json';
+      let origin = location.origin;
+      let url = origin + '/static/chooser.json';
 
       let config = {
         method: 'get',

@@ -1,5 +1,5 @@
 <template>
-    <div id="Choosers">
+    <div id="MulChooser">
         <div class="chooser-select">
             <span class="all" :class="{allActive:allActive}" @click="selectAll">全选</span>
             <span class="cancel" :class="{cancelActive:cancelActive}" @click="cancelAll">取消选择</span>
@@ -17,7 +17,7 @@
 <script>
 
 export default {
-    name: 'Choosers',
+    name: 'MulChooser',
     mixins: [],
     components: {},
     props: {

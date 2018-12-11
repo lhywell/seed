@@ -4,10 +4,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './app.vue';
-import Seed from '../src/main';
 import router from './router';
 import axios from 'axios';
 import _ from 'lodash';
+import tdseed from '../dist/tdseed.min.js';
 
 Vue.prototype.$axios = axios;
 
@@ -16,7 +16,7 @@ Vue.prototype.$axios = axios;
 Vue.config.productionTip = false
 
 Vue.use(VueRouter);
-Vue.use(Seed);
+Vue.use(tdseed);
 
 new Vue({
   el: '#app',

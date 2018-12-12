@@ -1,15 +1,18 @@
 {
   "name": "tdseed",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "title": "tdseed",
   "description": "A city map with components library by Vue2.0.js",
   "author": "huiyin li <lihuiyin128@163.com>",
   "private": false,
   "main": "dist/tdseed.min.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --progress --hot --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "webpack --config build/webpack.tdseed.conf.js"
+    "build": "node build/build.js"
   },
   "peerDependencies": {
     "vue": "^2.5.2"

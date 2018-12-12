@@ -6,7 +6,10 @@ import VueRouter from 'vue-router';
 import App from './app.vue';
 import router from './router';
 import axios from 'axios';
-import tdseed from '../dist/tdseed.min.js';
+//开发模式
+import tdseed from '../src/index';
+
+// import tdseed from '../dist/tdseed.min.js';
 
 Vue.prototype.$axios = axios;
 

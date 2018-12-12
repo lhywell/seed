@@ -15,6 +15,7 @@
     </div>
 </template>
 <script>
+import _ from 'lodash';
 
 export default {
     name: 'MulChooser',
@@ -117,6 +118,8 @@ export default {
 
 </script>
 <style scoped>
+@import "./reset.css";
+@import "./variables.css";
 @import './mul-chooser/mul-chooser.css';
 
 </style>

@@ -20,7 +20,7 @@ export default {
 </script>
 <style>
 /*开发模式*/
-@import 'main.css';
+@import '../src/assets/css/main.css';
 
 </style>
 <style scoped>

@@ -117,9 +117,10 @@ export default {
 }
 
 </script>
+<style>
+@import '../../assets/css/main.css';
+</style>
 <style scoped>
-@import "./reset.css";
-@import "./variables.css";
-@import './mul-chooser/mul-chooser.css';
+@import '../../assets/css/mul-chooser/mul-chooser.css';
 
 </style>

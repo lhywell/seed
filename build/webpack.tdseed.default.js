@@ -32,7 +32,9 @@ module.exports = {
           'style-loader',
           {
             loader: 'css-loader',
-            options: { importLoaders: 1, extract: true}
+            options: {
+                importLoaders: 1
+            }
           },
           'postcss-loader'
         ]

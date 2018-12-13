@@ -46,6 +46,14 @@ module.exports = merge(webpackBaseConfig, {
         new UglifyJsPlugin({
             parallel: true,
             sourceMap: true,
+            uglifyOptions: {
+                mangle: {
+                    toplevel: true
+                },
+                output: {
+                    comments: false
+                },
+            }
         })
     ]
 });

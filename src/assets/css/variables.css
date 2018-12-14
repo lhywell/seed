@@ -24,15 +24,4 @@
     /*hover*/
     --background-color-hover: #f3f8fe;
     --font-color-hover: #2d8cf0;
-
-    /*intention_contrast*/
-    --intention_contrast_blue: rgba(45, 140, 240, 1);
-    --intention_contrast_green: rgba(45, 226, 197, 1);
-    --intention_contrast_yellow: rgba(252, 196, 95, 1);
-    --intention_contrast_orange: rgba(255, 132, 84, 1);
-    --intention_contrast_red: rgba(219, 66, 90, 1);
-
-    /*洞察中的区域配套*/
-    --top_for_matching: 6px;
-    --top_for_score_margin: 10px;
 }

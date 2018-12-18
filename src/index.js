@@ -1,7 +1,14 @@
+import Vue from 'vue'
+import iView from 'iview';
+import '@/assets/css/main.css';
+
 import MulChooser from '@/components/mul-chooser'
+import MapModal from '@/components/map-modal'
+Vue.use(iView)
 
 const components = [
-    MulChooser
+    MulChooser,
+    MapModal
 ]
 
 const install = function(Vue) {

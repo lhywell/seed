@@ -8,5 +8,10 @@ export default new Router({
     path: '/mul',
     name: 'mul',
     component: (resolve) => require(['./mul-chooser.vue'], resolve)
+  },
+  {
+    path: '/map-modal',
+    name: 'map-modal',
+    component: (resolve) => require(['./map-modal.vue'], resolve)
   }]
 })

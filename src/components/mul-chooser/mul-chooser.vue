@@ -118,9 +118,15 @@ export default {
 
 </script>
 <style>
-@import '../../assets/css/main.css';
 </style>
 <style scoped>
 @import '../../assets/css/mul-chooser/mul-chooser.css';
 
+</style>
+<style>
+#editCanvas {
+    .ivu-modal-mask {
+        background-color: inherit;
+    }
+}
 </style>

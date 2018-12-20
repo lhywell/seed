@@ -1,7 +1,7 @@
 <template>
     <div id="map">
         <Button @click="open" class="">打开弹出框</Button>
-        <map-modal v-model="isShow" :data="editItem" @on-cancel="handleCancel" @on-submit="handleSubmit"></map-modal>
+        <map-modal v-model="isShow" :data="editItem" :map="this.map" @on-cancel="handleCancel" @on-submit="handleSubmit"></map-modal>
     </div>
 </template>
 <script>
@@ -18,7 +18,8 @@ export default {
                     clientX: 0,
                     clientY: 0
                 }
-            }
+            },
+            map: null
         }
     },
     created() {
@@ -44,5 +45,6 @@ export default {
 
 </script>
 <style>
+
 
 </style>

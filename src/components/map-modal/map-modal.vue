@@ -78,6 +78,12 @@ export default {
             default: function() {
                 return {};
             }
+        },
+        map: {
+            type: Object,
+            default: function() {
+                return {};
+            }
         }
     },
     data() {
@@ -112,17 +118,19 @@ export default {
     computed: {},
     watch: {
         value(val, oldVal) {
-            console.log(val, this.data);
             if (val) {
                 let shop = this.data;
                 this.formValidate.name = shop.name;
 
-                this.showModal = true;
-
                 //设置弹出框坐标
                 let dom = this.$refs.editCanvas.$el.lastChild;
-                //==>selfModel.js
-                this.setPosition(shop.event, dom, 350);
+
+                this.$nextTick(() => {
+                    //==>selfModel.js
+                    this.setPosition(shop.event, dom, this.map);
+                })
+
+                this.showModal = true;
             } else {
                 this.showModal = false;
             }
@@ -207,6 +215,8 @@ export default {
 
 </script>
 <style>
+
+
 </style>
 <style scoped>
 @import '../../assets/css/mapModal/mapModal.css';

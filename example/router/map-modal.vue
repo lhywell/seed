@@ -1,5 +1,5 @@
 <template>
-    <div id="map">
+    <div id="ex-map-modal">
         <Button @click="open" class="">打开弹出框</Button>
         <map-modal v-model="isShow" :data="editItem" :map="this.map" @on-cancel="handleCancel" @on-submit="handleSubmit"></map-modal>
     </div>

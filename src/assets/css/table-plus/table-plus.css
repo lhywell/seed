@@ -1,0 +1,31 @@
+.page_table_c {
+    width: 100%;
+    .header_area {
+        background-color: #fff;
+        width: 100%;
+        height: 56px;
+        padding: 10px 16px;
+        .l_area {
+            float: left;
+        }
+
+        .r_area {
+            float: right;
+        }
+    }
+    .table_container {
+        position: relative;
+    }
+    .page_container {
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        margin-right: 10px;
+        padding: 0 20px;
+        /* border: 1px solid rgb(233, 234, 236); */
+        .page {
+            margin-top: 10px;
+            float: right;
+        }
+    }
+}

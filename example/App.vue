@@ -6,6 +6,9 @@
             <nav class="nav">
                 <router-link to="/mul">mul-chooser</router-link>
                 <router-link to="/map-modal">map-modal</router-link>
+                <router-link to="/filter-city">filter-city</router-link>
+                <router-link to="/table-plus">table-plus</router-link>
+                <router-link to="/select-group">select-group</router-link>
             </nav>
             <div class="components">
                 <router-view/>
@@ -43,6 +46,7 @@ body {
     }
     .components {
         margin: 88px auto 0;
+        text-align: left;
     }
     h1 {
         font-size: 32px;

@@ -1,5 +1,5 @@
 <template>
-    <div id="adf">
+    <div id="ex-mul-chooser">
         <mul-chooser v-model="indexs" :data="this.officeListState" :disable="false" @on-change="_onChooserChange"></mul-chooser>
     </div>
 </template>
@@ -41,6 +41,6 @@ export default {
 
 </script>
 <style>
-#adf #MulChooser {}
+#ex-mul-chooser #MulChooser {}
 
 </style>
